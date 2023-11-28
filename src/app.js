@@ -20,4 +20,5 @@ route(':page', { page: 'home' });
 route(':page/:slug', { slug: null });
 route(':page/:slug/:action', { slug: null, action: null });
 
+
 export default AppViewModel;
